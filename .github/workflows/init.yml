@@ -1,0 +1,36 @@
+name: Initialize plugin from template
+
+on:
+  workflow_dispatch:
+    inputs:
+      plugin_id:
+        description: 'Plugin bundle ID (must start with gama.plugin.)'
+        required: true
+        default: 'gama.plugin.myplugin'
+      plugin_label:
+        description: 'Human-readable plugin name'
+        required: true
+        default: 'My Plugin'
+
+permissions:
+  contents: write
+
+jobs:
+  init:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run init script
+        run: bash init.sh "${{ github.event.inputs.plugin_id }}" "${{ github.event.inputs.plugin_label }}"
+
+      - name: Commit renames and remove this workflow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/init.yml
+          git rm init.sh
+          git add -A
+          git commit -m "init: rename template to ${{ github.event.inputs.plugin_id }}"
+          git push

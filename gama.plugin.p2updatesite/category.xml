@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+    <description name="GAMA Update Site">
+        Site containing updates to the GAMA platform software (see http://gama-platform.org)
+    </description>
+
+    <!--
+        Add one <feature> entry per feature in this repo.
+        Available categories:
+            gama.optional              - Generic optional components (default)
+            gama.optional.connectors   - Bridges to external software (R, MATLAB, MPI...)
+            gama.optional.formats      - New file format support (IFC, NetCDF, CIM...)
+            gama.optional.ia           - Artificial intelligence components
+    -->
+    <feature url="features/gama.plugin.feature.MY_PLUGIN_2026.6.0.qualifier.jar"
+             id="gama.plugin.feature.MY_PLUGIN"
+             version="2026.6.0.qualifier">
+        <category name="gama.optional"/>
+    </feature>
+
+    <category-def name="gama.ui"                    label="UI components of GAMA"/>
+    <category-def name="gama.core"                  label="Core components of GAMA"/>
+    <category-def name="gama.optional"              label="Optional components of GAMA"/>
+    <category-def name="gama.optional.participative" label="Participative simulations"/>
+    <category-def name="gama.optional.connectors"   label="Components to connect GAMA to other softwares"/>
+    <category-def name="gama.optional.formats"      label="Components to support new file formats"/>
+    <category-def name="gama.optional.ia"           label="Components related to artificial intelligence"/>
+    <category-def name="gama.models"                label="GAMA Models Library"/>
+</site>

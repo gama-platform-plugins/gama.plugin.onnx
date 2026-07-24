@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MY_PLUGIN
+Bundle-SymbolicName: gama.plugin.MY_PLUGIN;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-25
+Bundle-ClassPath: .
+Bundle-ActivationPolicy: lazy
+Require-Bundle: gama.dependencies,
+ gama.annotations,
+ gama.processor,
+ gama.api
+Automatic-Module-Name: gama.plugin.MY_PLUGIN

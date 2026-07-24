@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="gama.plugin.feature.MY_PLUGIN"
+      label="MY_PLUGIN"
+      version="2026.6.0.qualifier"
+      provider-name="GAMA Platform">
+
+   <description url="https://gama-platform.org">
+      [Enter feature description here.]
+   </description>
+
+   <copyright url="https://gama-platform.org">
+      [Enter copyright here.]
+   </copyright>
+
+   <license url="https://gama-platform.org/license">
+      [Enter license here.]
+   </license>
+
+   <plugin
+         id="gama.plugin.MY_PLUGIN"
+         version="0.0.0"/>
+
+</feature>
