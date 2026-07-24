@@ -2,7 +2,7 @@
 <feature
       id="gama.plugin.feature.onnx"
       label="ONNX runtime"
-      version="2026.6.0.qualifier"
+      version="1.0.0.qualifier"
       provider-name="GAMA Platform">
 
    <description url="https://gama-platform.org">
