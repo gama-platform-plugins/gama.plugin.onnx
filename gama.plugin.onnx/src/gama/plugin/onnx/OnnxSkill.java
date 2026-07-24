@@ -21,7 +21,7 @@ public class OnnxSkill extends Skill {
 
 	@action(name = "onnx_action")
 	@doc("Sample action — replace or remove.")
-	public Object myAction(final gama.core.runtime.IScope scope) {
+	public Object myAction(final IScope scope) {
 		// TODO: implement
 		return null;
 	}
