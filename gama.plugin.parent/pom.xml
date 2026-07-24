@@ -18,8 +18,8 @@
   </properties>
   <!-- ── Modules: add one entry per plugin/feature in this repo ── -->
   <modules>
-    <module>../MY_PLUGIN</module>
-    <module>../MY_PLUGIN.feature</module>
+    <module>../gama.plugin.onnx</module>
+    <module>../gama.plugin.feature.onnx</module>
     <module>../gama.plugin.p2updatesite</module>
   </modules>
   <repositories>

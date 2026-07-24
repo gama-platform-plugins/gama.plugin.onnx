@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="gama.plugin.feature.MY_PLUGIN"
-      label="MY_PLUGIN"
+      id="gama.plugin.feature.onnx"
+      label="ONNX runtime"
       version="2026.6.0.qualifier"
       provider-name="GAMA Platform">
 
@@ -18,7 +18,7 @@
    </license>
 
    <plugin
-         id="gama.plugin.MY_PLUGIN"
+         id="gama.plugin.onnx"
          version="0.0.0"/>
 
 </feature>
