@@ -5,16 +5,26 @@
       version="1.0.0.qualifier"
       provider-name="GAMA Platform">
 
-   <description url="https://gama-platform.org">
-      [Enter feature description here.]
+   <description url="https://github.com/gama-platform-plugins/gama.plugin.onnx">
+      Adds a skill for loading and running ONNX machine-learning models from GAML agents.
    </description>
 
-   <copyright url="https://gama-platform.org">
-      [Enter copyright here.]
-   </copyright>
+   <license url="https://github.com/gama-platform-plugins/gama.plugin.onnx/blob/GAMA_2026-06/LICENSE.md">
+                    GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
 
-   <license url="https://gama-platform.org/license">
-      [Enter license here.]
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.
    </license>
 
    <plugin
