@@ -3,14 +3,12 @@ Bundle-ManifestVersion: 2
 Bundle-Name: ONNX runtime
 Bundle-SymbolicName: gama.plugin.onnx;singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Export-Package: ai.onnxruntime,
- ai.onnxruntime.platform,
- ai.onnxruntime.providers,
- gama.plugin.onnx,
+Export-Package: gama.plugin.onnx,
  gaml.additions.onnx
 Bundle-RequiredExecutionEnvironment: JavaSE-25
 Bundle-ClassPath: .,
- lib/onnxruntime-1.27.0.jar
+ lib/onnxruntime-1.28.0.jar,
+ lib/onnxruntime-1.28.0-javadoc.jar
 Bundle-ActivationPolicy: lazy
 Require-Bundle: gama.dependencies,
  gama.annotations,
