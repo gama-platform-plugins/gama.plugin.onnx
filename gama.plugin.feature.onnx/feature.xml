@@ -6,7 +6,8 @@
       provider-name="GAMA Platform">
 
    <description url="https://github.com/gama-platform-plugins/gama.plugin.onnx">
-      Adds a skill for loading and running ONNX machine-learning models from GAML agents.
+      Adds the onnx_model type, the onnx_file file type, the onnx_predict operator and the onnx skill,
+      so that GAML models can load and run machine-learning models stored in the ONNX format.
    </description>
 
    <license url="https://github.com/gama-platform-plugins/gama.plugin.onnx/blob/GAMA_2026-06/LICENSE.md">
