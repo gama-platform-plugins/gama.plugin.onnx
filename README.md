@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.22888263.svg)](https://doi.org/10.5281/zenodo.22888263)
+
 # gama.plugin.onnx
 
 Run [ONNX](https://onnx.ai) models from GAML: neural networks, learned policies, surrogates of costly submodels, scikit-learn pipelines converted to ONNX.
