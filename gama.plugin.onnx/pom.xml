@@ -12,6 +12,10 @@
   
   <version>1.0.0-SNAPSHOT</version>
   
+  <properties>
+    <gama.category>gama.category.ai</gama.category>
+  </properties>
+  
   <build>
     <plugins>
       <plugin>
