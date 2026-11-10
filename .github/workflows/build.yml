@@ -29,6 +29,9 @@ jobs:
           java-version: "25"
           java-package: jdk
 
+      - name: Generate p2 categories
+        uses: gama-platform/gama.devtools/.github/actions/p2-categories@main
+
       - name: Prepare VPS credentials in settings.xml
         if: env.IS_DEPLOY == 'true'
         run: |
