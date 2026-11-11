@@ -35,6 +35,7 @@ import gama.api.types.map.GamaMapFactory;
 import gama.api.types.map.IMap;
 import gama.extension.dataframe.GamaDataFrameFactory;
 import gama.extension.dataframe.IDataFrame;
+import gama.extension.dataframe.IDataframeConstants;
 
 /**
  * The GAML operators of the ONNX plugin: loading a model, running an inference and releasing the sessions.
@@ -120,7 +121,7 @@ public class OnnxOperators {
 	 */
 	@operator (
 			value = "onnx_predict",
-			type = IType.DATAFRAME,
+			type = IDataframeConstants.ID,
 			category = { OnnxConstants.CATEGORY },
 			concept = { OnnxConstants.CONCEPT, IConcept.REGRESSION })
 	@doc (
