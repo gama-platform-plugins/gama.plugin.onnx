@@ -12,5 +12,6 @@ Bundle-ActivationPolicy: lazy
 Require-Bundle: gama.dependencies,
  gama.annotations,
  gama.processor,
+ gama.extension.dataframe,
  gama.api
 Automatic-Module-Name: gama.plugin.onnx

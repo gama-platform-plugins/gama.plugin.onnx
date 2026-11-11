@@ -24,8 +24,8 @@ import gama.api.gaml.types.IType;
 import gama.api.kernel.agent.IAgent;
 import gama.api.kernel.skill.Skill;
 import gama.api.runtime.scope.IScope;
-import gama.api.types.dataframe.IDataFrame;
 import gama.api.types.map.IMap;
+import gama.extension.dataframe.IDataFrame;
 
 /**
  * Gives an agent its own ONNX model and lets it run inferences with statements rather than operators.

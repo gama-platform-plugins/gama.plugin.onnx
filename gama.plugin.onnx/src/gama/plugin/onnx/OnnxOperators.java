@@ -29,12 +29,12 @@ import gama.api.exceptions.GamaRuntimeException;
 import gama.api.gaml.types.IType;
 import gama.api.gaml.types.Types;
 import gama.api.runtime.scope.IScope;
-import gama.api.types.dataframe.GamaDataFrameFactory;
-import gama.api.types.dataframe.IDataFrame;
 import gama.api.types.list.GamaListFactory;
 import gama.api.types.list.IList;
 import gama.api.types.map.GamaMapFactory;
 import gama.api.types.map.IMap;
+import gama.extension.dataframe.GamaDataFrameFactory;
+import gama.extension.dataframe.IDataFrame;
 
 /**
  * The GAML operators of the ONNX plugin: loading a model, running an inference and releasing the sessions.
